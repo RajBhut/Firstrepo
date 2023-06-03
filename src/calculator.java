@@ -25,7 +25,7 @@ public class calculator {
             case '/':
                 System.out.println(num1 / num2);
 
-
         }
     }
 }
+// please change if you find easy way
