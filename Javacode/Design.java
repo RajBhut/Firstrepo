@@ -8,6 +8,7 @@ public class Design
                 System.out.print("*");
 
             System.out.println();
+
         }
     }
 }
