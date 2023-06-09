@@ -21,9 +21,17 @@ JButton button = new JButton("press");
 //JButton button1 = new JButton("try");
 frame.getContentPane().add(button);
 //frame.getContentPane().add(button1);
-frame.setVisible(true);
-frame.getContentPane().add(BorderLayout.NORTH,mb);
-   frame.getContentPane().add(BorderLayout.PAGE_END,button);
+ frame.getContentPane().setBackground(new Color(171, 116, 187, 255));
+
+
+ frame.getContentPane().add(BorderLayout.NORTH,mb);
+ frame.getContentPane().add(BorderLayout.PAGE_END,button);
+ frame.getJMenuBar().setBackground(new Color(241, 157, 157));
+ frame.setVisible(true);
+
+
+
+
 
     }
 
