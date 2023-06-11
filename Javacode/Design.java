@@ -10,6 +10,9 @@ public class Design
 //                System.out.print("*");
 //
 //            System.out.println();
+
+
+//        pyramid
         System.out.println("Enter number of raw");
         Scanner input = new Scanner(System.in);
         int height = input.nextInt();
@@ -17,10 +20,21 @@ public class Design
         {
             for (int j= 1; j <= height - i ;j++)
                 System.out.print(" ");
+
+
+//            custome for other designe
             for (int j =1 ; j <= 2*i-1; j++)
-                System.out.print("*");
+
+                if (i == height)
+                    System.out.print("*");
+            else
+                if (j ==1 ||  j == 2*i -1){
+                System.out.print("*");}
+
+            else System.out.print(" ");
 
             System.out.println();
+
         }
     }
 }
