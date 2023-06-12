@@ -13,6 +13,7 @@ JMenu m2 = new JMenu("formate");
 mb.add(m1);
 mb.add(m2);
 m1.add("Hello");
+m1.add("byy");
 
 
 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
